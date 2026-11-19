@@ -2,10 +2,11 @@ import streamlit as st
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
+import dotenv 
 
 
 # 환경변수(API 키) 로드
-#dotenv.load_dotenv()
+dotenv.load_dotenv()
 #인증키 = os.getenv('seoulkey')
 인증키 = st.secrets["seoulkey"]
 

@@ -1,9 +1,5 @@
-streamlit 
+streamlit
 requests
 pandas
-matplotlib.pyplot
-
-
-
-
-
+matplotlib
+python-dotenv
